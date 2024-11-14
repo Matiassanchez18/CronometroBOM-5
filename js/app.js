@@ -68,7 +68,7 @@ function PausarCronometro() {
 
 
 const BotonIniciar = document.querySelector('.btn-primary')
-BotonIniciar.addEventListener('click', IniciarCronometro)
+BotonIniciar.addEventListener('click ', IniciarCronometro)
 
 
 const BotonPausar = document.querySelector('.btn-secondary')
